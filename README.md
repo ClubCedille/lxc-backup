@@ -5,5 +5,5 @@
 ### DESCRIPTION
 Simple script that can be run from crontab to backup all container
 
-## LISCENCE
+## LICENCE
 MIT
