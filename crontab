@@ -1,0 +1,2 @@
+15 2 * * * script >/dev/null 2>&1
+15 3 * * * script >/dev/null 2>&1
