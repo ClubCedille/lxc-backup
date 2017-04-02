@@ -21,5 +21,5 @@ backup(){
 
 for v in $vms
 do
-   update_vm "$v"
+   backup "$v"
 done
