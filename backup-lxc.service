@@ -1,0 +1,10 @@
+[Unit]
+Description=Execution des backups plus exportation si tout fonctionne
+
+
+[Service]
+Type=simple
+ExecStart=/bin/bash -c '/root/backup.sh && /root/exporter.sh'
+
+[Install]
+WantedBy=backup-lxc.timer
